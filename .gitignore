@@ -1,0 +1,18 @@
+# PyCharm
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
+
+# Ortam Ayarları
+.env
