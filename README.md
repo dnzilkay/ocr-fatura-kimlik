@@ -1,7 +1,8 @@
-# 🧾 OCR ile Fatura ve Kimlik Bilgisi Okuma 👑
+# 🧾 OCR ile Fatura ve Kimlik Bilgisi Okuma Deneme Uygulaması👑
 
 Bu proje, görsel formatta gelen **fatura ve kimlik belgelerinden** otomatik olarak bilgi çekmek için geliştirilmiştir.  
 `Python`, `Tesseract OCR` ve `OpenCV` gibi teknolojiler kullanılarak, metinler okunur, işlenir ve çıktı olarak kaydedilir.
+Bu proje görüntü işleme ile ilgili fikir sahibi olabilmek için yapıldı.
 
 ## 🚀 Özellikler
 - Faturalardan: Tarih, tutar, fatura no çıkarma
