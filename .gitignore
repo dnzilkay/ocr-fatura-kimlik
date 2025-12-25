@@ -1,18 +1,61 @@
-# PyCharm
-.idea/
-*.iml
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.env
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Sistem Dosyaları
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
-Thumbs.db
 
-# Ortam Ayarları
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
 .env
+.env.local
+
+# Outputs (opsiyonel - çıktıları da paylaşmak isterseniz bu satırları silin)
+outputs/*.json
+outputs/*.csv
+
+# Data - Büyük dosyalar (görselleri git'e eklemek istemiyorsanız)
+# data/ocr-receipts-text-detection/images/*.jpg
+# data/ocr-receipts-text-detection/images/*.png
+# data/ocr-receipts-text-detection/images/*.JPG
+
+# Temporary files
+*.log
+*.tmp
+.cache/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
